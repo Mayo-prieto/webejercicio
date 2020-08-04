@@ -1,5 +1,7 @@
 .carousel {
-  overflow: scroll;
+  //overflow: auto;
+  overflow-y: hidden;
+overflow-x: hidden;
   padding-left: 30px;
   width: 100%;
   position: relative;
@@ -24,3 +26,4 @@
           transform: scale(1.5);
   opacity: 1;
 }
+
